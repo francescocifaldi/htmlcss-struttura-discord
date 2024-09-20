@@ -6,15 +6,16 @@
 
 header{
     background-color: aquamarine;
+    padding: 20px 0;
 }
 
-header .container{
+header .navbar{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
     display: flex;
-    min-height: 50px;
     align-items: center;
+    background-color: orange;
+    line-height: 30px;
 }
 
 ul {
@@ -32,6 +33,23 @@ a {
     gap: 10px;
     flex-grow: 2;
     justify-content: center;
+}
+
+.little{
+    min-height: 300px;
+    max-width: 800px;
+    background-color: pink;
+    margin: auto;
+}
+
+.container {
+    min-height: 400px;
+    max-width: 1000px;
+}
+
+#frame{
+    background-color: blue;
+    padding: 60px 0;
 }
 
 .debug{
