@@ -3,3 +3,37 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    background-color: aquamarine;
+}
+
+header .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.debug{
+    border: 1px dotted black;
+}
