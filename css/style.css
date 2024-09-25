@@ -41,15 +41,19 @@ header{
     max-width: 800px;
     margin: 0 auto;
     min-height: 400px;
-    background-color: pink;
+    background-color: fuchsia;
 }
 
 .col-66{
     width: calc(2 * (100% / 3));
+    min-height: 400px;
+    background-color: cadetblue;
 }
 
 .col-33{
-    max-width: calc(100% / 3);
+    width: calc(100% / 3);
+    min-height: 400px;
+    background-color: pink;
 }
 
 .justify-between{
@@ -57,7 +61,7 @@ header{
 }
 
 .debug{
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
 
 .menu{
@@ -69,4 +73,8 @@ header{
 #hero{
     background-color: blue;
     padding: 20px 0;;
+}
+
+.light-bg{
+    background-color: gainsboro;
 }
