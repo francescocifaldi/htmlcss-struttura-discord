@@ -4,54 +4,69 @@
     padding: 0;
 }
 
-header{
-    background-color: aquamarine;
-    padding: 20px 0;
+html{
+    font-family:  Ubuntu, sans-serif;
 }
 
-header .navbar{
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    background-color: orange;
-    line-height: 30px;
-}
-
-ul {
+ul, ol {
     list-style: none;
 }
 
-a {
-    flex-grow: 1;
-    text-align: center;
-    
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header nav{
+    background-color: orange;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 10px 0;
+}
+
+.container-hero{
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 400px;
+    background-color: pink;
+}
+
+.col-66{
+    width: calc(2 * (100% / 3));
+}
+
+.col-33{
+    max-width: calc(100% / 3);
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.debug{
+    border: 1px dotted black;
 }
 
 .menu{
     display: flex;
     gap: 10px;
-    flex-grow: 2;
-    justify-content: center;
+    align-items: center;
 }
 
-.little{
-    min-height: 300px;
-    max-width: 800px;
-    background-color: pink;
-    margin: auto;
-}
-
-.container {
-    min-height: 400px;
-    max-width: 1000px;
-}
-
-#frame{
+#hero{
     background-color: blue;
-    padding: 60px 0;
-}
-
-.debug{
-    border: 1px dotted black;
+    padding: 20px 0;;
 }
