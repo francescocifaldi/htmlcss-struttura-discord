@@ -34,7 +34,6 @@ header nav{
 
 header{
     background-color: aquamarine;
-    padding: 10px 0;
 }
 
 .container-hero{
@@ -44,16 +43,38 @@ header{
     background-color: fuchsia;
 }
 
-.col-66{
-    width: calc(2 * (100% / 3));
+.col-3-5{
+    width: calc(3 * (100% / 5));
     min-height: 400px;
     background-color: cadetblue;
 }
 
-.col-33{
-    width: calc(100% / 3);
+.col-2-5{
+    width: calc(2 * (100% / 5));
     min-height: 400px;
     background-color: pink;
+}
+
+.col-100{
+    width:100%;
+    min-height: 400px;
+}
+
+.container .col-100{
+    aspect-ratio: 1/1;
+    background-color: green;
+}
+
+.col-33{
+    width: calc(100%/3);
+    min-height: 400px;
+    background-color: salmon;
+}
+
+.col-half33{
+    min-height: 400px;
+    width: calc((100%/3)/2);
+    background-color: cadetblue;
 }
 
 .justify-between{
@@ -77,4 +98,20 @@ header{
 
 .light-bg{
     background-color: gainsboro;
+}
+
+.grey-bg{
+    background-color: grey;
+}
+
+footer a{
+    background-color: salmon;
+}
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+.p-10-0{
+    padding: 10px 0;
 }
